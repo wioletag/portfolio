@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font: 14px Lato;
+}
+
+/*
+* Navigation
+*/
+.navbar-brand {
+  padding: 0 0 0 10px;
+}
+.logo {
+  height: 100%;
+  width: auto;
+}
+.navbar {
+  padding: 5px 0;
+}
+
+/*
+* Intro cover
+*/
+.cover {
+  padding: 120px 0;
+  text-align: center;
+  color: #404040;
+}
+
+/*
+* Fetured work
+*/
+.work-title {
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  position: relative;
+  z-index: 1;
+  color: #9c71ad;
+}
+.work-title span {
+  background: #fff;
+  padding: 0 15px;
+}
+.work-title:before {
+  border-top: 2px dotted #9c71ad;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.work-item {
+  margin-top: 30px;
+}
+.project-image {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  /*display: block;*/
+  border: 10px solid #fff;
+}
+.project-title {
+  margin: -40px auto 0 auto;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 9999;
+  /*position: relative;
+  display: block;*/
+  line-height: 20px;
+  background: #fff;
+}
+.work-item:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/*
+* top footer
+*/
+.footer-top {
+  height: 250px;
+  margin-top: 90px;
+  background-color: #9c71ad;
+  color: #fff;
+}
+.address {
+  font-size: 20px;
+  margin: 50px 0;
+}
+.contact-list {
+  padding: 0;
+  list-style-type: none;
+}
+.contact-list li a:hover {
+  text-decoration: none;
+  text-shadow: 0 0 5px #f0f2fc;
+}
+.contact-list a:visited, a:active, a:link{
+  text-decoration: none;
+  color: #fff;
+}
+.contact-icon {
+  margin: 10px;
+  display:inline;
+}
+.fa {
+  margin-right: 15px;
+  font-size: 45px;
+}
+
+/*
+* Bottom footer
+*/
+.footer-bottom {
+  background-color: #644171;
+  padding: 20px 0px;
+  color: #f4eff6;
+}
+
+/*
+* media queries
+*/
+@media screen and (max-width: 560px) {
+  .text-cover,
+  .fa {
+    font-size: 30px;
+  }
+  .address {
+    font-size: 17px;
+  }
+  .footer-top {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project-image {
+    height: 50%;
+    width: 50%;
+  }
+  .project-title {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-image {
+    height: 70%;
+    width: 70%;
+  }
+  .project-title {
+    width: 70%;
+  }
+}
+
+
