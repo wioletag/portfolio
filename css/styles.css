@@ -24,9 +24,11 @@ body {
 * Intro cover
 */
 .cover {
-  padding: 120px 0;
   text-align: center;
   color: #404040;
+  background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*
