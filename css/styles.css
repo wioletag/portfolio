@@ -4,7 +4,8 @@
 }
 
 body {
-  font: 14px "Lato";
+  font-family: 'Lato', sans-serif;
+  color: #4c4b4b;
 }
 
 /* Navigation */
@@ -17,17 +18,18 @@ body {
   width: auto;
 }
 
-.navbar {
-  padding: 5px 0;
+.custom-menu {
+  padding: 8px 10px;
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 /* Intro cover */
 .cover {
   text-align: center;
   color: #404040;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 160px;
+  padding-bottom: 80px;
 }
 
 /* Featured work */
@@ -35,7 +37,7 @@ body {
   font-family: "Lobster", cursive;
   font-weight: bold;
   text-align: center;
-  margin: 40px 0;
+  margin: 80px 0 40px 0 ;
   position: relative;
   z-index: 1;
   color: #9c71ad;
@@ -64,10 +66,14 @@ body {
   margin-right: auto;
 }
 
-.project-image {
-  padding-bottom: 30px;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+.portfolio-item {
+  box-shadow: 0px 0px 4px #8e8e8e;
+  border-radius: 3px;
   border: 10px solid #fff;
+}
+
+.project-image {
+  padding-bottom: 10px;
 }
 
 .project-title {
@@ -77,6 +83,8 @@ body {
   z-index: 9999;
   line-height: 20px;
   background: #fff;
+  /*background-color: #f2f2f2;*/
+  border: 1px solid yellow;
 }
 
 .work-item:hover {

@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Wioleta Golebiewska</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
@@ -15,7 +16,7 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav id="top" class="navbar navbar-default">
+    <nav id="top" class="custom-menu navbar navbar-default navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -36,10 +37,9 @@
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -50,8 +50,26 @@
     <section class="container cover">
         <div class="row">
             <div class="col-md-12">
-                <h1>Welcome!</h1>
-                <h1>I'm Wioleta. Front End Developer.</h1>
+                <h2>Welcome, I'm Wioleta!</h2>
+                <h2>I'm a front end developer based in Chicago.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container target">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="work-title"><span>About Me</span></h2>
+            </div>
+            <div class="row">
+                <article class="col-md-4 col-sm-4">
+                    <div></div>
+                </article>
+                <article class="col-md-8 col-sm-8">
+                    <p>I graduated from Dominican University in River Forest, IL, with a B.S in Computer Science and
+                    Computer Information Systems. Currenly I'm working at At&t in Chicago/Schaumburg as a Sr. Specialist Application Developer. I recenly completed Udacity Front-End Web Developer Nanodegree, and greatly enjoy growing my skills both at and outside of work.</p>
+                    <p>In my free time, I enjoy exploring my city and love traveling.</p>
+                </article>
             </div>
         </div>
     </section>
@@ -62,14 +80,15 @@
                 <h2 class="work-title"><span>Featured Work</span></h2>
             </div>
             <article class="col-md-4 col-sm-4">
-                <div class="work-item">
+                <div class="portfolio-item">
                     <a href="https://wioletag.github.io/portfolio/">
                         <img class="img-responsive project-image" src="images/portfolio.png" alt="portfolio project">
+                        <div>Portfolio</div>
                     </a>
-                    <h4 class="project-title">Portfolio</h4>
+                    
                 </div>
             </article>
-            <article class="col-md-4 col-sm-4">
+           <!-- <article class="col-md-4 col-sm-4">
                 <div class="work-item">
                     <a href="https://wioletag.github.io/frontend-nanodegree-resume/">
                         <img class="img-responsive project-image" src="images/resume.png" alt="resume project">
@@ -108,7 +127,7 @@
                     </a>
                     <h4 class="project-title">Website Optimization</h4>
                 </div>
-            </article>
+            </article>-->
         </div>
     </main>
 
@@ -150,6 +169,10 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
