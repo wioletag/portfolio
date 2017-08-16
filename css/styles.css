@@ -202,16 +202,20 @@ a.icon:hover {
   .project-item {
     width: 50%;
   }
+
+  .icon {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .project-item {
     width: 70%;
   }
-}
-@media(max-width:767px) {
-  .icon {
-    font-size: 35px;
+
+  .about-me {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
