@@ -5,4 +5,5 @@ This project is a part of Udacity Front-End Web Developer Nanodegree. Master bra
 
 
 ### **Usage**
-- Clone or download this repository, and open index.html in your browser.
+- Original version (master) of the portoflio can be viewed [here](https://wioletag.github.io/portfolio-nano/).
+- Or clone or download this repository, and open index.html in your browser.
